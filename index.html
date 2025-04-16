@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuenta Regresiva</title>
-    <link rel="stylesheet" href="main.css">
-    <script defer src="main.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="img/style.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="./js/vehiculos.js"></script>
+    <script src="./js/index.js" defer></script>
+    <script src="./js/cartservice.js" defer></script>
+
 </head>
 <body>
-    <div id="app">
-        <div class="form">
-            <form action="">
-                <input type="text" id="eventoNombre">
-                <input type="date" id="eventoFecha">
-                <input type="submit" id="bAdd" value="Añadir evento">
-            </form>
-
-            <div id="eventosConteiner"></div>
-
-        </div>
-
-    </div>
+    <header>
+        <nav>
+            <a href="./index.html"><img src="./img/logo.png"  id="logo" alt="logo"></a>
+            <div>
+                <a href="#">AURA</a>
+                <a href="#">CONCESIONARIA</a>
+                <a href="./cart.html" id="cart"><img src="img/iconos/shopping-cart.png" alt="Carrito de compras"><span id="cuenta-carrito">0</span></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="productos-container"></section>
+    </main>
+    <footer></footer>
     
 </body>
-</html>
+</html> 
